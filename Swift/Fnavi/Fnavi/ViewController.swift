@@ -8,6 +8,8 @@
 
 import UIKit
 
+let fnaviURL = "http://app.m-navi.ml/"
+
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
