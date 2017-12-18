@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6A8C951FE757CC00329388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C941FE757CC00329388 /* AppDelegate.swift */; };
+		3F6A8C971FE757CC00329388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C961FE757CC00329388 /* ViewController.swift */; };
+		3F6A8C9A1FE757CC00329388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8C981FE757CC00329388 /* Main.storyboard */; };
+		3F6A8C9D1FE757CC00329388 /* Fnavi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C9B1FE757CC00329388 /* Fnavi.xcdatamodeld */; };
+		3F6A8C9F1FE757CC00329388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8C9E1FE757CC00329388 /* Assets.xcassets */; };
+		3F6A8CA21FE757CC00329388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8CA01FE757CC00329388 /* LaunchScreen.storyboard */; };
+		3F6A8CAD1FE757CD00329388 /* FnaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8CAC1FE757CD00329388 /* FnaviTests.swift */; };
+		3F6A8CB81FE757CD00329388 /* FnaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8CB71FE757CD00329388 /* FnaviUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6A8CA91FE757CD00329388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6A8C891FE757CC00329388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6A8C901FE757CC00329388;
+			remoteInfo = Fnavi;
+		};
+		3F6A8CB41FE757CD00329388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6A8C891FE757CC00329388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6A8C901FE757CC00329388;
+			remoteInfo = Fnavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6A8C911FE757CC00329388 /* Fnavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fnavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A8C941FE757CC00329388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6A8C961FE757CC00329388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6A8C991FE757CC00329388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6A8C9C1FE757CC00329388 /* Fnavi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fnavi.xcdatamodel; sourceTree = "<group>"; };
+		3F6A8C9E1FE757CC00329388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6A8CA11FE757CC00329388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6A8CA31FE757CC00329388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A8CA81FE757CD00329388 /* FnaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FnaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A8CAC1FE757CD00329388 /* FnaviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FnaviTests.swift; sourceTree = "<group>"; };
+		3F6A8CAE1FE757CD00329388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A8CB31FE757CD00329388 /* FnaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FnaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A8CB71FE757CD00329388 /* FnaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FnaviUITests.swift; sourceTree = "<group>"; };
+		3F6A8CB91FE757CD00329388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6A8C8E1FE757CC00329388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CA51FE757CD00329388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CB01FE757CD00329388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6A8C881FE757CC00329388 = {
+			isa = PBXGroup;
+			children = (
+				3F6A8C931FE757CC00329388 /* Fnavi */,
+				3F6A8CAB1FE757CD00329388 /* FnaviTests */,
+				3F6A8CB61FE757CD00329388 /* FnaviUITests */,
+				3F6A8C921FE757CC00329388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6A8C921FE757CC00329388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A8C911FE757CC00329388 /* Fnavi.app */,
+				3F6A8CA81FE757CD00329388 /* FnaviTests.xctest */,
+				3F6A8CB31FE757CD00329388 /* FnaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6A8C931FE757CC00329388 /* Fnavi */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A8C941FE757CC00329388 /* AppDelegate.swift */,
+				3F6A8C961FE757CC00329388 /* ViewController.swift */,
+				3F6A8C981FE757CC00329388 /* Main.storyboard */,
+				3F6A8C9E1FE757CC00329388 /* Assets.xcassets */,
+				3F6A8CA01FE757CC00329388 /* LaunchScreen.storyboard */,
+				3F6A8CA31FE757CC00329388 /* Info.plist */,
+				3F6A8C9B1FE757CC00329388 /* Fnavi.xcdatamodeld */,
+			);
+			path = Fnavi;
+			sourceTree = "<group>";
+		};
+		3F6A8CAB1FE757CD00329388 /* FnaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A8CAC1FE757CD00329388 /* FnaviTests.swift */,
+				3F6A8CAE1FE757CD00329388 /* Info.plist */,
+			);
+			path = FnaviTests;
+			sourceTree = "<group>";
+		};
+		3F6A8CB61FE757CD00329388 /* FnaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A8CB71FE757CD00329388 /* FnaviUITests.swift */,
+				3F6A8CB91FE757CD00329388 /* Info.plist */,
+			);
+			path = FnaviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6A8C901FE757CC00329388 /* Fnavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A8CBC1FE757CD00329388 /* Build configuration list for PBXNativeTarget "Fnavi" */;
+			buildPhases = (
+				3F6A8C8D1FE757CC00329388 /* Sources */,
+				3F6A8C8E1FE757CC00329388 /* Frameworks */,
+				3F6A8C8F1FE757CC00329388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fnavi;
+			productName = Fnavi;
+			productReference = 3F6A8C911FE757CC00329388 /* Fnavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6A8CA71FE757CD00329388 /* FnaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A8CBF1FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviTests" */;
+			buildPhases = (
+				3F6A8CA41FE757CD00329388 /* Sources */,
+				3F6A8CA51FE757CD00329388 /* Frameworks */,
+				3F6A8CA61FE757CD00329388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A8CAA1FE757CD00329388 /* PBXTargetDependency */,
+			);
+			name = FnaviTests;
+			productName = FnaviTests;
+			productReference = 3F6A8CA81FE757CD00329388 /* FnaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6A8CB21FE757CD00329388 /* FnaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A8CC21FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviUITests" */;
+			buildPhases = (
+				3F6A8CAF1FE757CD00329388 /* Sources */,
+				3F6A8CB01FE757CD00329388 /* Frameworks */,
+				3F6A8CB11FE757CD00329388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A8CB51FE757CD00329388 /* PBXTargetDependency */,
+			);
+			name = FnaviUITests;
+			productName = FnaviUITests;
+			productReference = 3F6A8CB31FE757CD00329388 /* FnaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6A8C891FE757CC00329388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nshhhin;
+				TargetAttributes = {
+					3F6A8C901FE757CC00329388 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F6A8CA71FE757CD00329388 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F6A8C901FE757CC00329388;
+					};
+					3F6A8CB21FE757CD00329388 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F6A8C901FE757CC00329388;
+					};
+				};
+			};
+			buildConfigurationList = 3F6A8C8C1FE757CC00329388 /* Build configuration list for PBXProject "Fnavi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6A8C881FE757CC00329388;
+			productRefGroup = 3F6A8C921FE757CC00329388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6A8C901FE757CC00329388 /* Fnavi */,
+				3F6A8CA71FE757CD00329388 /* FnaviTests */,
+				3F6A8CB21FE757CD00329388 /* FnaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6A8C8F1FE757CC00329388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A8CA21FE757CC00329388 /* LaunchScreen.storyboard in Resources */,
+				3F6A8C9F1FE757CC00329388 /* Assets.xcassets in Resources */,
+				3F6A8C9A1FE757CC00329388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CA61FE757CD00329388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CB11FE757CD00329388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6A8C8D1FE757CC00329388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A8C971FE757CC00329388 /* ViewController.swift in Sources */,
+				3F6A8C9D1FE757CC00329388 /* Fnavi.xcdatamodeld in Sources */,
+				3F6A8C951FE757CC00329388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CA41FE757CD00329388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A8CAD1FE757CD00329388 /* FnaviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A8CAF1FE757CD00329388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A8CB81FE757CD00329388 /* FnaviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6A8CAA1FE757CD00329388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6A8C901FE757CC00329388 /* Fnavi */;
+			targetProxy = 3F6A8CA91FE757CD00329388 /* PBXContainerItemProxy */;
+		};
+		3F6A8CB51FE757CD00329388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6A8C901FE757CC00329388 /* Fnavi */;
+			targetProxy = 3F6A8CB41FE757CD00329388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6A8C981FE757CC00329388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6A8C991FE757CC00329388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6A8CA01FE757CC00329388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6A8CA11FE757CC00329388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6A8CBA1FE757CD00329388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6A8CBB1FE757CD00329388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6A8CBD1FE757CD00329388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = Fnavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.Fnavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F6A8CBE1FE757CD00329388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = Fnavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.Fnavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F6A8CC01FE757CD00329388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = FnaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.FnaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fnavi.app/Fnavi";
+			};
+			name = Debug;
+		};
+		3F6A8CC11FE757CD00329388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = FnaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.FnaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fnavi.app/Fnavi";
+			};
+			name = Release;
+		};
+		3F6A8CC31FE757CD00329388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = FnaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.FnaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fnavi;
+			};
+			name = Debug;
+		};
+		3F6A8CC41FE757CD00329388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = FnaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.FnaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fnavi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6A8C8C1FE757CC00329388 /* Build configuration list for PBXProject "Fnavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A8CBA1FE757CD00329388 /* Debug */,
+				3F6A8CBB1FE757CD00329388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A8CBC1FE757CD00329388 /* Build configuration list for PBXNativeTarget "Fnavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A8CBD1FE757CD00329388 /* Debug */,
+				3F6A8CBE1FE757CD00329388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A8CBF1FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A8CC01FE757CD00329388 /* Debug */,
+				3F6A8CC11FE757CD00329388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A8CC21FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A8CC31FE757CD00329388 /* Debug */,
+				3F6A8CC41FE757CD00329388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F6A8C9B1FE757CC00329388 /* Fnavi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F6A8C9C1FE757CC00329388 /* Fnavi.xcdatamodel */,
+			);
+			currentVersion = 3F6A8C9C1FE757CC00329388 /* Fnavi.xcdatamodel */;
+			path = Fnavi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F6A8C891FE757CC00329388 /* Project object */;
+}
