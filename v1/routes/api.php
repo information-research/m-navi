@@ -17,7 +17,9 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::get('/getList', 'apiController@getList');
-Route::get('/create', 'apiController@create');
-Route::get('/update/{id}', 'apiController@update');
-Route::get('/delete{id}', 'apiController@delete');
+Route::any('/create_user', 'userController@create');
+
+Route::any('/getList', 'expController@getList');
+Route::any('/create', 'expController@create');
+Route::any('/update/{id}', 'expController@update');
+Route::any('/delete{id}', 'expController@delete');

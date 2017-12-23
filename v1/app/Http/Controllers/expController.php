@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class apiController extends Controller
+class expController extends Controller
 {
     public function create()
     {
