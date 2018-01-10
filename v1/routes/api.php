@@ -19,7 +19,8 @@ use Illuminate\Http\Request;
 
 Route::any('/create_user', 'userController@create');
 
-Route::any('/getList', 'expController@getList');
-Route::any('/create', 'expController@create');
-Route::any('/update/{id}', 'expController@update');
-Route::any('/delete{id}', 'expController@delete');
+Route::any('/get_exp', 'expController@getList');
+Route::any('/create_exp', 'expController@create');
+Route::any('/update_exp/{id}', 'expController@update');
+Route::any('/delete_exp/{id}', 'expController@delete');
+Route::any('/join_exp/{id}', 'expController@join');
