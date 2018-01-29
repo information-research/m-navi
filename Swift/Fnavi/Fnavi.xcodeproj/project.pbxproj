@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108D23E74C62A41971D2C113 /* Pods_FnaviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E583409BD846C1023BE9C72B /* Pods_FnaviTests.framework */; };
+		3F037F92200B218200B1717C /* RegistExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F91200B218200B1717C /* RegistExpViewController.swift */; };
+		3F037F94200B223200B1717C /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F93200B223200B1717C /* RecruitViewController.swift */; };
+		3F037F96200B274700B1717C /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F95200B274700B1717C /* ConfirmViewController.swift */; };
+		3F037F97200B919300B1717C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F037F98200B919300B1717C /* Alamofire.framework */; };
+		3F037F99200BBB6100B1717C /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F1173821FEEAB1A007AB662 /* data.csv */; };
+		3F037F9B200BE2BB00B1717C /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F9A200BE2BB00B1717C /* CustomTableViewCell2.swift */; };
+		3F037F9D200BE66F00B1717C /* UserlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F9C200BE66F00B1717C /* UserlistViewController.swift */; };
+		3F037F9F200BFB5100B1717C /* CustomTableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F037F9E200BFB5100B1717C /* CustomTableViewCell3.swift */; };
+		3F1173781FEE9FFA007AB662 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1173771FEE9FFA007AB662 /* FirstViewController.swift */; };
+		3F11737A1FEEA006007AB662 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1173791FEEA006007AB662 /* SecondViewController.swift */; };
+		3F11737C1FEEA00E007AB662 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11737B1FEEA00E007AB662 /* ThirdViewController.swift */; };
+		3F1173801FEEA0FF007AB662 /* TurtorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11737F1FEEA0FF007AB662 /* TurtorialViewController.swift */; };
+		3F1173831FEEAB1A007AB662 /* data.csv in Sources */ = {isa = PBXBuildFile; fileRef = 3F1173821FEEAB1A007AB662 /* data.csv */; };
 		3F6A8C951FE757CC00329388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C941FE757CC00329388 /* AppDelegate.swift */; };
-		3F6A8C971FE757CC00329388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C961FE757CC00329388 /* ViewController.swift */; };
+		3F6A8C971FE757CC00329388 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C961FE757CC00329388 /* MainViewController.swift */; };
 		3F6A8C9A1FE757CC00329388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8C981FE757CC00329388 /* Main.storyboard */; };
 		3F6A8C9D1FE757CC00329388 /* Fnavi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8C9B1FE757CC00329388 /* Fnavi.xcdatamodeld */; };
 		3F6A8C9F1FE757CC00329388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8C9E1FE757CC00329388 /* Assets.xcassets */; };
 		3F6A8CA21FE757CC00329388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A8CA01FE757CC00329388 /* LaunchScreen.storyboard */; };
 		3F6A8CAD1FE757CD00329388 /* FnaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8CAC1FE757CD00329388 /* FnaviTests.swift */; };
 		3F6A8CB81FE757CD00329388 /* FnaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A8CB71FE757CD00329388 /* FnaviUITests.swift */; };
+		3F72C662200AEAC5002BE8BB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72C661200AEAC5002BE8BB /* CustomTableViewCell.swift */; };
+		3F9F75021FFCFC49007E7B92 /* SubModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F75011FFCFC48007E7B92 /* SubModule.swift */; };
+		3F9F75041FFCFCE1007E7B92 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F75031FFCFCE1007E7B92 /* RegistViewController.swift */; };
+		770F88586EAE6EC65369B980 /* Pods_FnaviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3489CE86D41A8B6208B9D8FC /* Pods_FnaviUITests.framework */; };
+		C05B9A6D4A12D80C89C89B13 /* Pods_Fnavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D12F659EEE62562E03B26C0 /* Pods_Fnavi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +54,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C78449C55C13BD3F614FE0 /* Pods-FnaviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FnaviUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FnaviUITests/Pods-FnaviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D8FA202CA0E79818941F02E /* Pods-FnaviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FnaviUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FnaviUITests/Pods-FnaviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		240AFBBF198D4D70705DC41B /* Pods-Fnavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fnavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fnavi/Pods-Fnavi.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA193F251512B5ECA2B9950 /* Pods-FnaviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FnaviTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FnaviTests/Pods-FnaviTests.release.xcconfig"; sourceTree = "<group>"; };
+		3489CE86D41A8B6208B9D8FC /* Pods_FnaviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FnaviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F037F91200B218200B1717C /* RegistExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistExpViewController.swift; sourceTree = "<group>"; };
+		3F037F93200B223200B1717C /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
+		3F037F95200B274700B1717C /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		3F037F98200B919300B1717C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F037F9A200BE2BB00B1717C /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
+		3F037F9C200BE66F00B1717C /* UserlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserlistViewController.swift; sourceTree = "<group>"; };
+		3F037F9E200BFB5100B1717C /* CustomTableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell3.swift; sourceTree = "<group>"; };
+		3F1173771FEE9FFA007AB662 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3F1173791FEEA006007AB662 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F11737B1FEEA00E007AB662 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3F11737F1FEEA0FF007AB662 /* TurtorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtorialViewController.swift; sourceTree = "<group>"; };
+		3F1173811FEEAB19007AB662 /* Fnavi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fnavi-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F1173821FEEAB1A007AB662 /* data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
 		3F6A8C911FE757CC00329388 /* Fnavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fnavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6A8C941FE757CC00329388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6A8C961FE757CC00329388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6A8C961FE757CC00329388 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3F6A8C991FE757CC00329388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6A8C9C1FE757CC00329388 /* Fnavi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fnavi.xcdatamodel; sourceTree = "<group>"; };
 		3F6A8C9E1FE757CC00329388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +86,13 @@
 		3F6A8CB31FE757CD00329388 /* FnaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FnaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6A8CB71FE757CD00329388 /* FnaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FnaviUITests.swift; sourceTree = "<group>"; };
 		3F6A8CB91FE757CD00329388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F72C661200AEAC5002BE8BB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		3F9F75011FFCFC48007E7B92 /* SubModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModule.swift; sourceTree = "<group>"; };
+		3F9F75031FFCFCE1007E7B92 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		7D12F659EEE62562E03B26C0 /* Pods_Fnavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fnavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6087F9BFFEA81AF8A22D12 /* Pods-FnaviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FnaviTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FnaviTests/Pods-FnaviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5ECF8A886808C8A7766485A /* Pods-Fnavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fnavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fnavi/Pods-Fnavi.release.xcconfig"; sourceTree = "<group>"; };
+		E583409BD846C1023BE9C72B /* Pods_FnaviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FnaviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F037F97200B919300B1717C /* Alamofire.framework in Frameworks */,
+				C05B9A6D4A12D80C89C89B13 /* Pods_Fnavi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108D23E74C62A41971D2C113 /* Pods_FnaviTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +117,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770F88586EAE6EC65369B980 /* Pods_FnaviUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0904F02D0B2A1F6461808CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				240AFBBF198D4D70705DC41B /* Pods-Fnavi.debug.xcconfig */,
+				C5ECF8A886808C8A7766485A /* Pods-Fnavi.release.xcconfig */,
+				BA6087F9BFFEA81AF8A22D12 /* Pods-FnaviTests.debug.xcconfig */,
+				2BA193F251512B5ECA2B9950 /* Pods-FnaviTests.release.xcconfig */,
+				0D8FA202CA0E79818941F02E /* Pods-FnaviUITests.debug.xcconfig */,
+				03C78449C55C13BD3F614FE0 /* Pods-FnaviUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F1173751FEE9E20007AB662 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A8C961FE757CC00329388 /* MainViewController.swift */,
+				3F9F75031FFCFCE1007E7B92 /* RegistViewController.swift */,
+				3F9F75011FFCFC48007E7B92 /* SubModule.swift */,
+				3F037F91200B218200B1717C /* RegistExpViewController.swift */,
+				3F037F93200B223200B1717C /* RecruitViewController.swift */,
+				3F037F9C200BE66F00B1717C /* UserlistViewController.swift */,
+				3F037F95200B274700B1717C /* ConfirmViewController.swift */,
+				3F1173761FEE9FDA007AB662 /* TurtorialView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1173761FEE9FDA007AB662 /* TurtorialView */ = {
+			isa = PBXGroup;
+			children = (
+				3F11737F1FEEA0FF007AB662 /* TurtorialViewController.swift */,
+				3F1173771FEE9FFA007AB662 /* FirstViewController.swift */,
+				3F1173791FEEA006007AB662 /* SecondViewController.swift */,
+				3F11737B1FEEA00E007AB662 /* ThirdViewController.swift */,
+			);
+			path = TurtorialView;
+			sourceTree = "<group>";
+		};
 		3F6A8C881FE757CC00329388 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +170,8 @@
 				3F6A8CAB1FE757CD00329388 /* FnaviTests */,
 				3F6A8CB61FE757CD00329388 /* FnaviUITests */,
 				3F6A8C921FE757CC00329388 /* Products */,
+				0904F02D0B2A1F6461808CFB /* Pods */,
+				C05A1A9F1A7BF72492AC1B93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +188,18 @@
 		3F6A8C931FE757CC00329388 /* Fnavi */ = {
 			isa = PBXGroup;
 			children = (
+				3F1173751FEE9E20007AB662 /* View */,
 				3F6A8C941FE757CC00329388 /* AppDelegate.swift */,
-				3F6A8C961FE757CC00329388 /* ViewController.swift */,
+				3F1173821FEEAB1A007AB662 /* data.csv */,
 				3F6A8C981FE757CC00329388 /* Main.storyboard */,
+				3F72C661200AEAC5002BE8BB /* CustomTableViewCell.swift */,
+				3F037F9A200BE2BB00B1717C /* CustomTableViewCell2.swift */,
+				3F037F9E200BFB5100B1717C /* CustomTableViewCell3.swift */,
 				3F6A8C9E1FE757CC00329388 /* Assets.xcassets */,
 				3F6A8CA01FE757CC00329388 /* LaunchScreen.storyboard */,
 				3F6A8CA31FE757CC00329388 /* Info.plist */,
 				3F6A8C9B1FE757CC00329388 /* Fnavi.xcdatamodeld */,
+				3F1173811FEEAB19007AB662 /* Fnavi-Bridging-Header.h */,
 			);
 			path = Fnavi;
 			sourceTree = "<group>";
@@ -128,6 +222,17 @@
 			path = FnaviUITests;
 			sourceTree = "<group>";
 		};
+		C05A1A9F1A7BF72492AC1B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F037F98200B919300B1717C /* Alamofire.framework */,
+				7D12F659EEE62562E03B26C0 /* Pods_Fnavi.framework */,
+				E583409BD846C1023BE9C72B /* Pods_FnaviTests.framework */,
+				3489CE86D41A8B6208B9D8FC /* Pods_FnaviUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F6A8CBC1FE757CD00329388 /* Build configuration list for PBXNativeTarget "Fnavi" */;
 			buildPhases = (
+				5D1D90371D3A76B9A7EBEC11 /* [CP] Check Pods Manifest.lock */,
 				3F6A8C8D1FE757CC00329388 /* Sources */,
 				3F6A8C8E1FE757CC00329388 /* Frameworks */,
 				3F6A8C8F1FE757CC00329388 /* Resources */,
+				DA1B8009F7DE78553AC3FA38 /* [CP] Embed Pods Frameworks */,
+				2A44AA2B67713072E63CC336 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F6A8CBF1FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviTests" */;
 			buildPhases = (
+				61104586C2BF4D3830AF55D5 /* [CP] Check Pods Manifest.lock */,
 				3F6A8CA41FE757CD00329388 /* Sources */,
 				3F6A8CA51FE757CD00329388 /* Frameworks */,
 				3F6A8CA61FE757CD00329388 /* Resources */,
+				3522DF761C622D9BE1CAD849 /* [CP] Embed Pods Frameworks */,
+				27A90ACFE61295F18CBB1A99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F6A8CC21FE757CD00329388 /* Build configuration list for PBXNativeTarget "FnaviUITests" */;
 			buildPhases = (
+				CBB07910B2B02799C77C0BD0 /* [CP] Check Pods Manifest.lock */,
 				3F6A8CAF1FE757CD00329388 /* Sources */,
 				3F6A8CB01FE757CD00329388 /* Frameworks */,
 				3F6A8CB11FE757CD00329388 /* Resources */,
+				4A7E68C89F58AB877967DAE7 /* [CP] Embed Pods Frameworks */,
+				6E0D78F9817186AD0142FA15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +310,7 @@
 				TargetAttributes = {
 					3F6A8C901FE757CC00329388 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					3F6A8CA71FE757CD00329388 = {
@@ -238,6 +353,7 @@
 				3F6A8CA21FE757CC00329388 /* LaunchScreen.storyboard in Resources */,
 				3F6A8C9F1FE757CC00329388 /* Assets.xcassets in Resources */,
 				3F6A8C9A1FE757CC00329388 /* Main.storyboard in Resources */,
+				3F037F99200BBB6100B1717C /* data.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +373,180 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27A90ACFE61295F18CBB1A99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FnaviTests/Pods-FnaviTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A44AA2B67713072E63CC336 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fnavi/Pods-Fnavi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3522DF761C622D9BE1CAD849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FnaviTests/Pods-FnaviTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7E68C89F58AB877967DAE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FnaviUITests/Pods-FnaviUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1D90371D3A76B9A7EBEC11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fnavi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61104586C2BF4D3830AF55D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FnaviTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E0D78F9817186AD0142FA15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FnaviUITests/Pods-FnaviUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB07910B2B02799C77C0BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FnaviUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1B8009F7DE78553AC3FA38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fnavi/Pods-Fnavi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fnavi/Pods-Fnavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F6A8C8D1FE757CC00329388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6A8C971FE757CC00329388 /* ViewController.swift in Sources */,
+				3F9F75041FFCFCE1007E7B92 /* RegistViewController.swift in Sources */,
+				3F037F9D200BE66F00B1717C /* UserlistViewController.swift in Sources */,
+				3F6A8C971FE757CC00329388 /* MainViewController.swift in Sources */,
+				3F037F92200B218200B1717C /* RegistExpViewController.swift in Sources */,
+				3F72C662200AEAC5002BE8BB /* CustomTableViewCell.swift in Sources */,
 				3F6A8C9D1FE757CC00329388 /* Fnavi.xcdatamodeld in Sources */,
+				3F037F96200B274700B1717C /* ConfirmViewController.swift in Sources */,
+				3F037F94200B223200B1717C /* RecruitViewController.swift in Sources */,
 				3F6A8C951FE757CC00329388 /* AppDelegate.swift in Sources */,
+				3F037F9B200BE2BB00B1717C /* CustomTableViewCell2.swift in Sources */,
+				3F1173831FEEAB1A007AB662 /* data.csv in Sources */,
+				3F11737A1FEEA006007AB662 /* SecondViewController.swift in Sources */,
+				3F11737C1FEEA00E007AB662 /* ThirdViewController.swift in Sources */,
+				3F1173801FEEA0FF007AB662 /* TurtorialViewController.swift in Sources */,
+				3F1173781FEE9FFA007AB662 /* FirstViewController.swift in Sources */,
+				3F037F9F200BFB5100B1717C /* CustomTableViewCell3.swift in Sources */,
+				3F9F75021FFCFC49007E7B92 /* SubModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +710,19 @@
 		};
 		3F6A8CBD1FE757CD00329388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240AFBBF198D4D70705DC41B /* Pods-Fnavi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8YPT438X6;
 				INFOPLIST_FILE = Fnavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.Fnavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fnavi/Fnavi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +730,18 @@
 		};
 		3F6A8CBE1FE757CD00329388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5ECF8A886808C8A7766485A /* Pods-Fnavi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T8YPT438X6;
 				INFOPLIST_FILE = Fnavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.Fnavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fnavi/Fnavi-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +749,7 @@
 		};
 		3F6A8CC01FE757CD00329388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6087F9BFFEA81AF8A22D12 /* Pods-FnaviTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +767,7 @@
 		};
 		3F6A8CC11FE757CD00329388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA193F251512B5ECA2B9950 /* Pods-FnaviTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +785,7 @@
 		};
 		3F6A8CC31FE757CD00329388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8FA202CA0E79818941F02E /* Pods-FnaviUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +802,7 @@
 		};
 		3F6A8CC41FE757CD00329388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C78449C55C13BD3F614FE0 /* Pods-FnaviUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
